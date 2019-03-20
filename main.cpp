@@ -51,10 +51,10 @@ void setup(void){
 void loop(void){
 	// put your main code here, to run repeatedly:
 	// remove exit 0
-
+int j;
 int *p;
 int addr = ( int ) &p;
-
+j = sizeof( i = 1234 );
 	exit (0);
 }
 
