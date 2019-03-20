@@ -53,3 +53,8 @@ void loop(void){
 	// remove exit 0
 	exit (0);
 }
+
+union U1 { // Noncompliant
+    float j;
+    int i;
+};
